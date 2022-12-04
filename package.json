@@ -1,0 +1,31 @@
+{
+	"name": "svelte-prismic",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"lint": "prettier --plugin-search-dir . --check .",
+		"format": "prettier --plugin-search-dir . --write ."
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/kit": "next",
+		"autoprefixer": "^10.4.13",
+		"postcss": "^8.4.19",
+		"prettier": "^2.8.0",
+		"prettier-plugin-svelte": "^2.8.1",
+		"svelte": "^3.53.1",
+		"svelte-preprocess": "^4.10.7",
+		"tailwindcss": "^3.2.4",
+		"vite": "^3.2.4"
+	},
+	"type": "module",
+	"dependencies": {
+		"@prismicio/client": "^6.7.1",
+		"@prismicio/helpers": "^2.3.6",
+		"@prismicio/svelte": "^0.0.4",
+		"daisyui": "^2.42.1"
+	}
+}
